@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="FirefoxTest(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="org.DorDie.selenium.frameworks.TC002">
+        <methods>
+          <include name="beforemethod"/>
+          <include name="configuration"/>
+          <include name="aftermethod"/>
+          <include name="enterurl" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- org.DorDie.selenium.frameworks.TC002 -->
+      <class name="org.DorDie.selenium.frameworks.TC001">
+        <methods>
+          <include name="configuration"/>
+          <include name="aftermethod"/>
+          <include name="Registration" invocation-numbers="0"/>
+          <include name="beforemethod"/>
+        </methods>
+      </class> <!-- org.DorDie.selenium.frameworks.TC001 -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
